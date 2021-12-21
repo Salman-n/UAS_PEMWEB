@@ -8,5 +8,5 @@ UAS PEMROGRAMAN WEB KELOMPOK HOME PROPERTI PTIK B
 
 <br />Link Website :
 <br />http://homeproperti.rf.gd 
-
+<br />Untuk detail informasi tata cara akses ke panel hosting bisa diliat didokumen docx / pdf yang kami kirim di spada
  
