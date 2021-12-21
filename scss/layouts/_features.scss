@@ -1,0 +1,49 @@
+.features {
+  margin-top: 150px;
+
+  .title p {
+    margin-top: 30px;
+
+    @include breakpoint(desktop) {
+      margin: 50px auto;
+      width: 584px;
+    }
+  }
+
+  .row:nth-child(2) {
+    margin-top: 70px;
+  }
+
+  .feature {
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+    @include breakpoint(desktop) {
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      &:nth-child(1) {
+        background-image: url('../img/bg-search-data.svg');
+      }
+
+      &:nth-child(2) {
+        background-image: url('../img/bg-24-hours-access.svg');
+      }
+
+      &:nth-child(3) {
+        background-image: url('../img/bg-print-out.svg');
+      }
+
+      &:nth-child(4) {
+        background-image: url('../img/bg-security-code.svg');
+      }
+    }
+  }
+
+  .btn {
+    @include breakpoint(desktop) {
+      padding-left: 0;
+    }
+  }
+}

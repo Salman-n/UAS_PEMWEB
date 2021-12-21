@@ -1,0 +1,26 @@
+// 1. Configuration and helpers
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/animations';
+
+// 2. Vendors
+@import 'vendors/bootstrap-overrides';
+@import 'vendors/owl-carousel';
+
+// 3. Base stuff
+@import 'base/base';
+@import 'base/typography';
+
+// 4. Layout-related sections
+@import 'layouts/header';
+@import 'layouts/intro';
+@import 'layouts/about';
+@import 'layouts/features';
+@import 'layouts/testimonials';
+@import 'layouts/banner';
+@import 'layouts/footer';
+
+// 5. Components
+@import 'components/buttons';
+@import 'components/messenger';
+

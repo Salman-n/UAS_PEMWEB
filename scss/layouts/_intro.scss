@@ -1,0 +1,49 @@
+.intro {
+  margin-top: 80px;
+  overflow-x: hidden;
+
+  @include breakpoint(desktop) {
+    margin-top: 130px;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    margin-top: 20px;
+
+    @include breakpoint(desktop) {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    @include breakpoint(desktop) {
+      margin: 50px auto;
+      padding-right: 40%;
+    }
+  }
+
+  img {
+    width: 100%;
+
+    @include breakpoint(desktop) {
+      margin-left: -344px;
+      margin-top: 96px;
+      width: auto;
+    }
+  }
+
+  .intro-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-primary {
+    margin-top: 30px;
+    width: 100%;
+
+    @include breakpoint(desktop) {
+      margin-top: 0;
+      width: 170px;
+    }
+  }
+}

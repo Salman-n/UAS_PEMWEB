@@ -1,0 +1,55 @@
+.footer {
+  h5,
+  .logo {
+    margin-bottom: 30px;
+  }
+
+  .nav-link {
+    color: $majestic-blue-dark;
+
+    @include breakpoint(desktop) {
+      padding-left: 0;
+    }
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+
+    @include breakpoint(desktop) {
+      justify-content: start;
+    }
+  }
+
+  .social-media a {
+    @include transition-ease;
+    background: hsl(240, 13%, 92%);
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    margin-right: 14px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .social-media a:hover {
+    background: $pink;
+  }
+
+  .copyright {
+    display: block;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    @include breakpoint(desktop) {
+      display: block;
+      margin-top: 0;
+    }
+  }
+}

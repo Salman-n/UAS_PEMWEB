@@ -1,0 +1,53 @@
+.testimonials {
+  margin-top: 150px;
+
+  .container {
+    background: $purple;
+    border-radius: 50px;
+    padding: 80px 40px 60px;
+
+    @include breakpoint(desktop) {
+      padding: 108px 60px 92px;
+    }
+  }
+
+  h2 {
+    color: $white;
+  }
+
+  .card {
+    border-radius: 20px;
+    padding: 40px 15px 30px;
+
+    @include breakpoint(desktop) {
+      display: flex;
+      flex-direction: row;
+      padding: 60px 70px 50px;
+      width: 645px;
+    }
+  }
+
+  .card-img {
+    @include breakpoint(desktop) {
+      width: auto;
+    }
+  }
+
+  .card-img img {
+    margin: auto;
+    width: 90px;
+  }
+
+  .card-title {
+    margin-bottom: 4px;
+  }
+
+  .job {
+    margin-top: 0;
+  }
+
+  .card-text {
+    color: $majestic-blue;
+    line-height: 180%;
+  }
+}

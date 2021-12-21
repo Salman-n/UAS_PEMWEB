@@ -1,0 +1,28 @@
+.banner {
+  border-top: 2px solid hsl(256, 67%, 93%);
+  margin-top: 150px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+    width: 100%;
+
+    @include breakpoint(desktop) {
+      margin-bottom: 0;
+      width: auto;
+    }
+  }
+
+  .btn-primary {
+    background: $pink;
+  }
+
+  .btn-primary:hover {
+    background: hsl(324, 82%, 56%);
+  }
+}
